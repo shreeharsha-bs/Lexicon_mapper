@@ -81,11 +81,11 @@ sed -i 's/\bt\b/TH/g' $new_lexicon
 
 sed -i 's/\bT\b/T/g' $new_lexicon
 
-sed 's/\bth\b/T HH/g' $new_lexicon > ${new_lexicon}_alt
+#sed 's/\bth\b/T HH/g' $new_lexicon > ${new_lexicon}_alt
 sed -i 's/\bth\b/TH/g' $new_lexicon
 
-cat $new_lexicon ${new_lexicon}_alt | sort -u > tmp
-mv tmp $new_lexicon
+#cat $new_lexicon ${new_lexicon}_alt | sort -u > tmp
+#mv tmp $new_lexicon
 
 sed -i 's/\bTh\b/T HH/g' $new_lexicon
 
