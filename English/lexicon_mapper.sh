@@ -102,5 +102,5 @@ sed -i 's/\bz\b/Z/g' $new_lexicon
 sed -i 's/\bzh\b/ZH/g' $new_lexicon
 
 wait
-rm ${new_lexicon}_alt
+#rm ${new_lexicon}_alt
 
